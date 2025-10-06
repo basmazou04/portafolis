@@ -1,0 +1,332 @@
+body 
+{
+    background-color: #d866cb83;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    padding-top: 90px;
+}
+
+section 
+{
+  scroll-margin-top: 100px;
+}
+nav 
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #967894;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+a.menu 
+{
+    text-decoration: none;
+    color: #7e0d6c;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: 0.3s ease, color 0.3s ease;
+}
+
+a.menu:hover 
+{
+    background-color: #41132f;
+    color: white;
+}
+
+ul 
+{
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 15px; 
+}
+
+header 
+{
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center;
+  gap: 15px;
+}
+
+img 
+{
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  width: 70px;
+  opacity: 0;
+  transform: scale(0.8); 
+  animation: hacerZoom 1s ease forwards;
+}
+
+    @keyframes hacerZoom 
+    {
+      to
+      {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+h1 
+{
+  /*background-color: #ffffff;*/
+  color: rgb(113, 28, 79);
+  font-family:'Dancing Script', cursive;
+  border-radius: 10px;
+  opacity: 0;
+  transform: scale(0.8); 
+  animation: hacerZoom 1s ease forwards;
+  flex-direction: column;
+}
+
+    @keyframes hacerZoom 
+    {
+      to 
+      {
+        opacity: 1;
+        transform: scale(1);
+      }
+}
+
+section 
+{
+  background: #fff6f8; 
+  padding: 40px 20px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  margin: 30px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.me 
+{
+  width: 200px;
+}
+
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin: 0 0 24px;
+  font-size: 1.4rem;
+  color: rgb(113, 28, 79); 
+  letter-spacing: 0.04em;
+
+  opacity: 0;
+  transform: scale(0.8); 
+  animation: hacerZoom 1s ease forwards;
+    }
+
+    @keyframes hacerZoom 
+    {
+      to 
+      {
+        opacity: 1;
+        transform: scale(1);
+      }
+}
+
+.contenidor 
+{
+  display: flex;
+  align-items: center;     
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+h5 
+{
+  background: #fadfe3;      
+  padding: 22px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+  /*max-width: 720px;*/
+  box-sizing: border-box;
+  flex: 1 1 60%; 
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;       
+  color: #412732;
+
+  opacity: 0;
+  transform: scale(0.8); 
+  animation: hacerZoom 1s ease forwards;
+}
+
+    @keyframes hacerZoom 
+    {
+      to 
+      {
+        opacity: 1;
+        transform: scale(1);
+      }
+}
+
+.skills 
+{
+  text-align: center;
+}
+
+.contenidor2 
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center; 
+  margin-top: 40px; 
+}
+
+.academic_background 
+{
+  display: flex;
+  flex-direction: column; 
+  gap: 30px;              
+  align-items: center;    
+}
+
+.baixcamp, .microbits, .bat, .eso 
+{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    display: flex;               
+    align-items: center;         
+    gap: 400px;    
+    justify-content: center;             
+}
+
+.microbits, .bat 
+{
+  gap: 500px;
+}
+
+.eso 
+{
+  gap: 440px;
+}
+
+.text 
+{
+  display: flex;              
+  flex-direction: column;    
+  justify-content: center;    
+  align-items: center;                      
+  text-align: center;
+}
+
+.imatge_baixcamp, .imatge_microbits, .imatge_vilaseca 
+{
+    width: 200px;                
+    border-radius: 5px; 
+    flex-direction: column; 
+    justify-content: center;
+
+}
+
+.professional_experience 
+{
+  display: flex;
+  flex-direction: column;             
+  align-items: center; 
+}
+
+.freshmarket 
+{
+  background-color: antiquewhite;
+    border-radius: 10px;
+    display: flex;               
+    align-items: center;           
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.imatge_freshmarket, .imatge_bancaliments, .imatge_kiwop 
+{
+    width: 300px;                
+    border-radius: 5px; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.freshmarket p 
+{
+  font-weight: bold;                
+  background-color: antiquewhite;   
+  padding: 100px;                 
+  border-radius: 8px;              
+  text-align: justify;              
+  width: 750px;                     
+  line-height: 1.6;                 
+  color: #412732;
+}
+
+.bancaliments 
+{
+  background-color: antiquewhite;
+    border-radius: 10px;
+    display: flex;               
+    align-items: center;           
+    justify-content: center;
+}
+
+.bancaliments p 
+{
+  font-weight: bold;                
+  background-color: antiquewhite;   
+  padding: 90px;                 
+  border-radius: 8px;              
+  text-align: justify;              
+  width: 750px;                     
+  line-height: 1.6;                 
+  color: #412732;
+}
+
+.kiwop 
+{
+  background-color: antiquewhite;
+  border-radius: 10px;
+  display: flex;               
+  align-items: center;           
+  justify-content: center;
+  margin-top: 20px
+}
+
+.kiwop p 
+{
+  font-weight: bold;                
+  background-color: antiquewhite;   
+  padding: 115px;                 
+  border-radius: 8px;              
+  text-align: justify;              
+  width: 750px;                     
+  line-height: 1.6;                 
+  color: #412732;
+}
+
+.imatge_instagram, .imatge_linkedin, .imatge_correu
+{
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    /*padding: 9px 15px;*/
+    background-color:#c998e0;
+    color:  #412732; 
+    text-align: center;
+    border-radius: 10px; 
+    transition: 0.3s ease-in-out; 
+}
+
+a:hover 
+{
+    background-color: #52265c;
+}
